@@ -1,0 +1,27 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "test d",
+  "main": "Specprogram.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "chromedriver": "^80.0.1",
+    "jasmine": "^3.5.0",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "n"
+  },
+  "keywords": [
+    "n"
+  ],
+  "author": "n",
+  "license": "ISC"
+}
