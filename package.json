@@ -7,13 +7,25 @@
     "lib": "lib"
   },
   "dependencies": {
+    "allure": "0.0.0",
     "chromedriver": "^80.0.1",
+    "geckodriver": "^1.19.1",
     "jasmine": "^3.5.0",
-    "selenium-webdriver": "^4.0.0-alpha.5"
+    "jasmine-allure-reporter": "^1.0.2",
+    "log4js": "^6.1.2",
+    "protractor": "^5.4.3",
+    "rimraf": "^3.0.2",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "update": "^0.7.4",
+    "webdriver-manager": "^12.1.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "allure-commandline": "^2.13.0"
+  },
   "scripts": {
-    "test": "jasmine"
+    "pretest": "rimraf allure-report",
+    "test": "protractor conf.js",
+    "posttest": "allure generate allure-results --clean -o allure-report && allure open"
   },
   "repository": {
     "type": "git",
@@ -22,6 +34,6 @@
   "keywords": [
     "n"
   ],
-  "author": "n",
+  "author": "Edward Sidorenko",
   "license": "ISC"
 }
