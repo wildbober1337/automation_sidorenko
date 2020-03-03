@@ -50,8 +50,8 @@ describe('Google search', () => {
 
 describe('Search results', () => {
     it(`count less than the ${data.countResults}`, async () => {
-        searchResults = await driver.findElement(By.xpath("(.//*[@id ='mBMHK'])")).getText();
-        searchTime = await driver.findElement(By.xpath("(.//*[@id ='mBMHK'])/nobr")).getText();
+        searchResults = await driver.findElement(By.xpath("(.//*[@id ='result-stats'])")).getText();
+        searchTime = await driver.findElement(By.xpath("(.//*[@id ='result-stats'])/nobr")).getText();
         expect(Number(searchResults.match(/[0-9]+(.[0-9]+)?/)[0].replace(/\s/, ''))).toBeGreaterThan(data.countResults);
       })
 }); 
