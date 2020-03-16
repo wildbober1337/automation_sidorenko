@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582889578890' stop='1582889581443'>
+    <name>Gmail mails </name>
+    <title>Gmail mails </title>
+    <test-cases>
+        <test-case start='1582889578890' status='failed' stop='1582889579347'>
+            <name>amount need be equal 2</name>
+            <title>amount need be equal 2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected 12 to equal 2.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_8\spec\programSpec.js:18:50)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1582889579347' status='failed' stop='1582889581442'>
+            <name>need to contains Automation word</name>
+            <title>need to contains Automation word</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected 'Security alert' to contain 'Automation'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_8\spec\programSpec.js:33:28)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

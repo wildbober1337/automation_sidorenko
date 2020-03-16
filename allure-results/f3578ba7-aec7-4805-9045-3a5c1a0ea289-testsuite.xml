@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582282336900' stop='1582282338129'>
+    <name>Google search</name>
+    <title>Google search</title>
+    <test-cases>
+        <test-case start='1582282336900' status='passed' stop='1582282337141'>
+            <name>need to contain the word "iTechArt in the first page</name>
+            <title>need to contain the word "iTechArt in the first page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1582282337141' status='passed' stop='1582282338129'>
+            <name>need to contain the word "iTechArt in the second page</name>
+            <title>need to contain the word "iTechArt in the second page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

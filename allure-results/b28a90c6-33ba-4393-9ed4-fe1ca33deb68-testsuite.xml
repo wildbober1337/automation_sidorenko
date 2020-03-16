@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582281714296' stop='1582281714300'>
+    <name>Search results</name>
+    <title>Search results</title>
+    <test-cases>
+        <test-case start='1582281714296' status='failed' stop='1582281714300'>
+            <name>count need be greater than the 50000</name>
+            <title>count need be greater than the 50000</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: Cannot read property 'findElement' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'findElement' of undefined
+                    at MainPage.search (E:\JavaScript\Task_7\pageobject\mainpage.js:23:23)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_7\spec\programSpec.js:12:5)
+                From: Task: Run beforeAll in control flow
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_7\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (E:\JavaScript\Task_7\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (E:\JavaScript\Task_7\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (E:\JavaScript\Task_7\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (E:\JavaScript\Task_7\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at TreeProcessor.execute (E:\JavaScript\Task_7\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5187:7)
+                    at Env.execute (E:\JavaScript\Task_7\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:983:17)
+                    at Jasmine.execute (E:\JavaScript\Task_7\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:200:12)
+                    at E:\JavaScript\Task_7\node_modules\protractor\built\frameworks\jasmine.js:132:15
+                    at Function.promise (E:\JavaScript\Task_7\node_modules\q\q.js:682:9)
+                From asynchronous test: 
+                Error
+                    at Object.&lt;anonymous> (E:\JavaScript\Task_7\spec\programSpec.js:7:1)
+                    at Module._compile (internal/modules/cjs/loader.js:955:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+                    at Module.load (internal/modules/cjs/loader.js:811:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+                    at Module.require (internal/modules/cjs/loader.js:848:19)
+                    at require (internal/modules/cjs/helpers.js:74:18)
+                    at E:\JavaScript\Task_7\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:93:5
+                    at Array.forEach (&lt;anonymous>)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,106 @@
+{
+  "uid" : "6ea17e07cbbd6e9f",
+  "name" : "need to contain the word \"iTechArt in the first page",
+  "fullName" : "Google search.need to contain the word \"iTechArt in the first page",
+  "historyId" : "68b7d3716eb590cc21f46ac21ff9b7b6",
+  "time" : {
+    "start" : 1582282572798,
+    "stop" : 1582282573037,
+    "duration" : 239
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Google search"
+  }, {
+    "name" : "testClass",
+    "value" : "Google search"
+  }, {
+    "name" : "testMethod",
+    "value" : "need to contain the word \"iTechArt in the first page"
+  }, {
+    "name" : "package",
+    "value" : "Google search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "76915e4b81a598a4",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'findElement' of undefined",
+      "time" : {
+        "start" : 1582282532199,
+        "stop" : 1582282532209,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "ea254ba7c8c3a091",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582282403220,
+        "stop" : 1582282403447,
+        "duration" : 227
+      }
+    }, {
+      "uid" : "a3e08658499bc19e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582282336900,
+        "stop" : 1582282337141,
+        "duration" : 241
+      }
+    }, {
+      "uid" : "2b62ad3ddeb424f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582281959258,
+        "stop" : 1582281959506,
+        "duration" : 248
+      }
+    }, {
+      "uid" : "5fc1a2a0508d105b",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'findElement' of undefined",
+      "time" : {
+        "start" : 1582281714270,
+        "stop" : 1582281714280,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "b62fc29f3fa657ae",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'findElement' of undefined",
+      "time" : {
+        "start" : 1582281553397,
+        "stop" : 1582281553407,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "a798de5dcbb60d7d",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'findElement' of undefined",
+      "time" : {
+        "start" : 1582281527223,
+        "stop" : 1582281527256,
+        "duration" : 33
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ea17e07cbbd6e9f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,46 @@
+{
+  "uid" : "69d762935d1c5ccc",
+  "name" : "count need be greater than the 50000",
+  "fullName" : "Search results.count need be greater than the 50000",
+  "historyId" : "f3baf8ed6ed49d05e762112cfbeb3ce",
+  "time" : {
+    "start" : 1582281553423,
+    "stop" : 1582281553428,
+    "duration" : 5
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: Cannot read property 'findElement' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'findElement' of undefined\n                    at MainPage.search (E:\\JavaScript\\Task_7\\pageobject\\mainpage.js:23:23)\n                    at processTicksAndRejections (internal/process/task_queues.js:94:5)\n                    at UserContext.<anonymous> (E:\\JavaScript\\Task_7\\spec\\programSpec.js:12:5)\n                From: Task: Run beforeAll in control flow\n                    at UserContext.<anonymous> (E:\\JavaScript\\Task_7\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (E:\\JavaScript\\Task_7\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (E:\\JavaScript\\Task_7\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (E:\\JavaScript\\Task_7\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                    at queueRunnerFactory (E:\\JavaScript\\Task_7\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n                    at TreeProcessor.execute (E:\\JavaScript\\Task_7\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5187:7)\n                    at Env.execute (E:\\JavaScript\\Task_7\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:983:17)\n                    at Jasmine.execute (E:\\JavaScript\\Task_7\\node_modules\\protractor\\node_modules\\jasmine\\lib\\jasmine.js:200:12)\n                    at E:\\JavaScript\\Task_7\\node_modules\\protractor\\built\\frameworks\\jasmine.js:132:15\n                    at Function.promise (E:\\JavaScript\\Task_7\\node_modules\\q\\q.js:682:9)\n                From asynchronous test: \n                Error\n                    at Object.<anonymous> (E:\\JavaScript\\Task_7\\spec\\programSpec.js:7:1)\n                    at Module._compile (internal/modules/cjs/loader.js:955:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)\n                    at Module.load (internal/modules/cjs/loader.js:811:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:723:14)\n                    at Module.require (internal/modules/cjs/loader.js:848:19)\n                    at require (internal/modules/cjs/helpers.js:74:18)\n                    at E:\\JavaScript\\Task_7\\node_modules\\protractor\\node_modules\\jasmine\\lib\\jasmine.js:93:5\n                    at Array.forEach (<anonymous>)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Search results"
+  }, {
+    "name" : "testClass",
+    "value" : "Search results"
+  }, {
+    "name" : "testMethod",
+    "value" : "count need be greater than the 50000"
+  }, {
+    "name" : "package",
+    "value" : "Search results"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69d762935d1c5ccc.json",
+  "parameterValues" : [ ]
+}

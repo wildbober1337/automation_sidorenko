@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582827028470' stop='1582827028517'>
+    <name>Gmail messages </name>
+    <title>Gmail messages </title>
+    <test-cases>
+        <test-case start='1582827028470' status='passed' stop='1582827028515'>
+            <name>amount should not be greater than undefined</name>
+            <title>amount should not be greater than undefined</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

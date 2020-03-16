@@ -1,0 +1,46 @@
+{
+  "uid" : "31445e0223e106cf",
+  "name" : "need to contains Automation word",
+  "fullName" : "Gmail mails .need to contains Automation word",
+  "historyId" : "ef6aee3cf8ccf4f7b3235a911b3df29e",
+  "time" : {
+    "start" : 1582889579347,
+    "stop" : 1582889581442,
+    "duration" : 2095
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'Security alert' to contain 'Automation'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (E:\\JavaScript\\Task_8\\spec\\programSpec.js:33:28)\n                    at processTicksAndRejections (internal/process/task_queues.js:94:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gmail mails "
+  }, {
+    "name" : "testClass",
+    "value" : "Gmail mails "
+  }, {
+    "name" : "testMethod",
+    "value" : "need to contains Automation word"
+  }, {
+    "name" : "package",
+    "value" : "Gmail mails "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31445e0223e106cf.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582827580434' stop='1582827581402'>
+    <name>Gmail messages </name>
+    <title>Gmail messages </title>
+    <test-cases>
+        <test-case start='1582827580435' status='failed' stop='1582827581402'>
+            <name>amount should be equal 2</name>
+            <title>amount should be equal 2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected 12 to equal 2.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_8\spec\programSpec.js:19:50)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

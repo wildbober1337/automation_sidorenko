@@ -1,0 +1,125 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Google search",
+    "children" : [ {
+      "name" : "need to contain the word \"iTechArt in the first page",
+      "uid" : "6ea17e07cbbd6e9f",
+      "parentUid" : "1648bd3581ce17f84b3321073a0dc939",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582282572798,
+        "stop" : 1582282573037,
+        "duration" : 239
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "need to contain the word \"iTechArt in the second page",
+      "uid" : "d51d7588c3d79b1",
+      "parentUid" : "1648bd3581ce17f84b3321073a0dc939",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582282573037,
+        "stop" : 1582282574077,
+        "duration" : 1040
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1648bd3581ce17f84b3321073a0dc939"
+  }, {
+    "name" : "Search results",
+    "children" : [ {
+      "name" : "count need be greater than the 50000",
+      "uid" : "b6e032a744e7f0b6",
+      "parentUid" : "d3db6bbd29fd50b9835bfd4404c18d8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582282574138,
+        "stop" : 1582282575000,
+        "duration" : 862
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d3db6bbd29fd50b9835bfd4404c18d8e"
+  }, {
+    "name" : "Gmail messages ",
+    "children" : [ {
+      "name" : "amount should not be greater than undefined",
+      "uid" : "e6b41f8192a135ea",
+      "parentUid" : "0da78a22bec3bb1725500eb4994bfb67",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582827103225,
+        "stop" : 1582827103818,
+        "duration" : 593
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "amount should be equal 2",
+      "uid" : "8692eeb0cdce82a0",
+      "parentUid" : "0da78a22bec3bb1725500eb4994bfb67",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582827580435,
+        "stop" : 1582827581402,
+        "duration" : 967
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0da78a22bec3bb1725500eb4994bfb67"
+  }, {
+    "name" : "Gmail mails ",
+    "children" : [ {
+      "name" : "need to contains Automation",
+      "uid" : "447865d4967b0ff5",
+      "parentUid" : "9ace52ff6451a46322093a37d7eb9a42",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582889077438,
+        "stop" : 1582889082865,
+        "duration" : 5427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "amount need be equal 2",
+      "uid" : "97ae55a5ec548533",
+      "parentUid" : "9ace52ff6451a46322093a37d7eb9a42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582890033786,
+        "stop" : 1582890034226,
+        "duration" : 440
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "need to contains Automation word",
+      "uid" : "ba09496ef524c5a2",
+      "parentUid" : "9ace52ff6451a46322093a37d7eb9a42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582890034226,
+        "stop" : 1582890037254,
+        "duration" : 3028
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9ace52ff6451a46322093a37d7eb9a42"
+  } ]
+}

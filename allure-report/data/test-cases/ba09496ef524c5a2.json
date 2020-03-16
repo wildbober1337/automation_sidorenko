@@ -1,0 +1,82 @@
+{
+  "uid" : "ba09496ef524c5a2",
+  "name" : "need to contains Automation word",
+  "fullName" : "Gmail mails .need to contains Automation word",
+  "historyId" : "ef6aee3cf8ccf4f7b3235a911b3df29e",
+  "time" : {
+    "start" : 1582890034226,
+    "stop" : 1582890037254,
+    "duration" : 3028
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gmail mails "
+  }, {
+    "name" : "testClass",
+    "value" : "Gmail mails "
+  }, {
+    "name" : "testMethod",
+    "value" : "need to contains Automation word"
+  }, {
+    "name" : "package",
+    "value" : "Gmail mails "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b432192cdfee87cf",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Security alert' to contain 'Automation'.",
+      "time" : {
+        "start" : 1582889652827,
+        "stop" : 1582889660178,
+        "duration" : 7351
+      }
+    }, {
+      "uid" : "31445e0223e106cf",
+      "status" : "failed",
+      "statusDetails" : "Expected 'Security alert' to contain 'Automation'.",
+      "time" : {
+        "start" : 1582889579347,
+        "stop" : 1582889581442,
+        "duration" : 2095
+      }
+    }, {
+      "uid" : "ec612f31cf87bdcb",
+      "status" : "failed",
+      "statusDetails" : "Expected '' to contain 'Automation'.",
+      "time" : {
+        "start" : 1582889318410,
+        "stop" : 1582889325410,
+        "duration" : 7000
+      }
+    }, {
+      "uid" : "8e8f3699175fc361",
+      "status" : "failed",
+      "statusDetails" : "Failed: subject is not defined",
+      "time" : {
+        "start" : 1582889273500,
+        "stop" : 1582889274470,
+        "duration" : 970
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba09496ef524c5a2.json",
+  "parameterValues" : [ ]
+}

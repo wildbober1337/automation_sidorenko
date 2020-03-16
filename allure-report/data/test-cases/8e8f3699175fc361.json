@@ -1,0 +1,46 @@
+{
+  "uid" : "8e8f3699175fc361",
+  "name" : "need to contains Automation word",
+  "fullName" : "Gmail mails .need to contains Automation word",
+  "historyId" : "ef6aee3cf8ccf4f7b3235a911b3df29e",
+  "time" : {
+    "start" : 1582889273500,
+    "stop" : 1582889274470,
+    "duration" : 970
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: subject is not defined",
+  "statusTrace" : "ReferenceError: subject is not defined\n                    at getSubject (E:\\JavaScript\\Task_8\\googlePage.js:99:18)\n                    at Object.getMailHeader (E:\\JavaScript\\Task_8\\googlePage.js:93:23)\n                    at processTicksAndRejections (internal/process/task_queues.js:94:5)\n                    at UserContext.<anonymous> (E:\\JavaScript\\Task_8\\spec\\programSpec.js:24:28)\n                From: Task: Run it(\"need to contains Automation word\") in control flow\n                    at UserContext.<anonymous> (E:\\JavaScript\\Task_8\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n                    at Spec.execute (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:526:10)\n                    at UserContext.fn (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5340:37)\n                    at attempt (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at runNext (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (E:\\JavaScript\\Task_8\\spec\\programSpec.js:21:5)\n                    at addSpecsToSuite (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (E:\\JavaScript\\Task_8\\spec\\programSpec.js:15:1)\n                    at Module._compile (internal/modules/cjs/loader.js:955:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)\n                    at Module.load (internal/modules/cjs/loader.js:811:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:723:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gmail mails "
+  }, {
+    "name" : "testClass",
+    "value" : "Gmail mails "
+  }, {
+    "name" : "testMethod",
+    "value" : "need to contains Automation word"
+  }, {
+    "name" : "package",
+    "value" : "Gmail mails "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e8f3699175fc361.json",
+  "parameterValues" : [ ]
+}

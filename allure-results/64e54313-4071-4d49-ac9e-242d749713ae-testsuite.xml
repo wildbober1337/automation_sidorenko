@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582889272875' stop='1582889274471'>
+    <name>Gmail mails </name>
+    <title>Gmail mails </title>
+    <test-cases>
+        <test-case start='1582889272875' status='failed' stop='1582889273499'>
+            <name>amount need be equal 2</name>
+            <title>amount need be equal 2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected 12 to equal 2.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_8\spec\programSpec.js:18:50)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1582889273500' status='failed' stop='1582889274470'>
+            <name>need to contains Automation word</name>
+            <title>need to contains Automation word</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: subject is not defined</message>
+                <stack-trace>ReferenceError: subject is not defined
+                    at getSubject (E:\JavaScript\Task_8\googlePage.js:99:18)
+                    at Object.getMailHeader (E:\JavaScript\Task_8\googlePage.js:93:23)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_8\spec\programSpec.js:24:28)
+                From: Task: Run it("need to contains Automation word") in control flow
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_8\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (E:\JavaScript\Task_8\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (E:\JavaScript\Task_8\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (E:\JavaScript\Task_8\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (E:\JavaScript\Task_8\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (E:\JavaScript\Task_8\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (E:\JavaScript\Task_8\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (E:\JavaScript\Task_8\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (E:\JavaScript\Task_8\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (E:\JavaScript\Task_8\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (E:\JavaScript\Task_8\spec\programSpec.js:21:5)
+                    at addSpecsToSuite (E:\JavaScript\Task_8\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (E:\JavaScript\Task_8\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (E:\JavaScript\Task_8\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (E:\JavaScript\Task_8\spec\programSpec.js:15:1)
+                    at Module._compile (internal/modules/cjs/loader.js:955:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+                    at Module.load (internal/modules/cjs/loader.js:811:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:723:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

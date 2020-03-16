@@ -1,0 +1,100 @@
+{
+  "uid" : "97ae55a5ec548533",
+  "name" : "amount need be equal 2",
+  "fullName" : "Gmail mails .amount need be equal 2",
+  "historyId" : "8b0232ffc2b39a167fcf822a24d748d5",
+  "time" : {
+    "start" : 1582890033786,
+    "stop" : 1582890034226,
+    "duration" : 440
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gmail mails "
+  }, {
+    "name" : "testClass",
+    "value" : "Gmail mails "
+  }, {
+    "name" : "testMethod",
+    "value" : "amount need be equal 2"
+  }, {
+    "name" : "package",
+    "value" : "Gmail mails "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cecd6c8c81c74ce1",
+      "status" : "failed",
+      "statusDetails" : "Expected 12 to equal 2.",
+      "time" : {
+        "start" : 1582889652316,
+        "stop" : 1582889652827,
+        "duration" : 511
+      }
+    }, {
+      "uid" : "14c73d9167d20db1",
+      "status" : "failed",
+      "statusDetails" : "Expected 12 to equal 2.",
+      "time" : {
+        "start" : 1582889578890,
+        "stop" : 1582889579347,
+        "duration" : 457
+      }
+    }, {
+      "uid" : "3131a302ab19c7d9",
+      "status" : "failed",
+      "statusDetails" : "Expected 12 to equal 2.",
+      "time" : {
+        "start" : 1582889317866,
+        "stop" : 1582889318410,
+        "duration" : 544
+      }
+    }, {
+      "uid" : "a319c5d8073f3508",
+      "status" : "failed",
+      "statusDetails" : "Expected 12 to equal 2.",
+      "time" : {
+        "start" : 1582889272875,
+        "stop" : 1582889273499,
+        "duration" : 624
+      }
+    }, {
+      "uid" : "40dd5a751829afb5",
+      "status" : "failed",
+      "statusDetails" : "Expected 12 to equal 2.",
+      "time" : {
+        "start" : 1582889076904,
+        "stop" : 1582889077438,
+        "duration" : 534
+      }
+    }, {
+      "uid" : "a4a301b05054e2d5",
+      "status" : "failed",
+      "statusDetails" : "Expected 12 to equal 2.",
+      "time" : {
+        "start" : 1582828106721,
+        "stop" : 1582828107319,
+        "duration" : 598
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "97ae55a5ec548533.json",
+  "parameterValues" : [ ]
+}

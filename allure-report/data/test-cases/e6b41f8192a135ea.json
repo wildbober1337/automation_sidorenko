@@ -1,0 +1,121 @@
+{
+  "uid" : "e6b41f8192a135ea",
+  "name" : "amount should not be greater than undefined",
+  "fullName" : "Gmail messages .amount should not be greater than undefined",
+  "historyId" : "26cd89aa40ecad088b186da2eb1af928",
+  "time" : {
+    "start" : 1582827103225,
+    "stop" : 1582827103818,
+    "duration" : 593
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 12 to equal 2.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (E:\\JavaScript\\Task_8\\spec\\programSpec.js:18:50)\n                    at processTicksAndRejections (internal/process/task_queues.js:94:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gmail messages "
+  }, {
+    "name" : "testClass",
+    "value" : "Gmail messages "
+  }, {
+    "name" : "testMethod",
+    "value" : "amount should not be greater than undefined"
+  }, {
+    "name" : "package",
+    "value" : "Gmail messages "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "60f0e7cc34153d64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582827028470,
+        "stop" : 1582827028515,
+        "duration" : 45
+      }
+    }, {
+      "uid" : "11c7d3444577c49d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582826924583,
+        "stop" : 1582826924618,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "d01f3bc8914614ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582826462746,
+        "stop" : 1582826462795,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "32f62820273af739",
+      "status" : "failed",
+      "statusDetails" : "Failed: googleApi.getMailsAmount is not a function",
+      "time" : {
+        "start" : 1582826376981,
+        "stop" : 1582826376987,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "8f31863c962d9bd9",
+      "status" : "failed",
+      "statusDetails" : "Failed: googleApi.getMailsAmount is not a function",
+      "time" : {
+        "start" : 1582826162580,
+        "stop" : 1582826162659,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "2e11c493915a4de6",
+      "status" : "failed",
+      "statusDetails" : "Failed: googleApi.test is not a function",
+      "time" : {
+        "start" : 1582811519269,
+        "stop" : 1582811519275,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "1f820ec64d8a67fe",
+      "status" : "failed",
+      "statusDetails" : "Failed: googleApi.getMailsAmount is not a function",
+      "time" : {
+        "start" : 1582811389967,
+        "stop" : 1582811389972,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "94d1695413cc513a",
+      "status" : "failed",
+      "statusDetails" : "Failed: googleApi.getMessagesAmount is not a function",
+      "time" : {
+        "start" : 1582811330681,
+        "stop" : 1582811330686,
+        "duration" : 5
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e6b41f8192a135ea.json",
+  "parameterValues" : [ ]
+}

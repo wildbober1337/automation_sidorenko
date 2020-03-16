@@ -1,0 +1,60 @@
+{
+  "uid" : "447865d4967b0ff5",
+  "name" : "need to contains Automation",
+  "fullName" : "Gmail mails .need to contains Automation",
+  "historyId" : "99ca86fc73b1b373b0b9109a0cb0b1ab",
+  "time" : {
+    "start" : 1582889077438,
+    "stop" : 1582889082865,
+    "duration" : 5427
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected '' to contain 'Automation'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (E:\\JavaScript\\Task_8\\spec\\programSpec.js:33:28)\n                    at processTicksAndRejections (internal/process/task_queues.js:94:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gmail mails "
+  }, {
+    "name" : "testClass",
+    "value" : "Gmail mails "
+  }, {
+    "name" : "testMethod",
+    "value" : "need to contains Automation"
+  }, {
+    "name" : "package",
+    "value" : "Gmail mails "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "822fe66e46c0669c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582828107319,
+        "stop" : 1582828113615,
+        "duration" : 6296
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "447865d4967b0ff5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,44 @@
+{
+  "uid" : "a5b7cb995aafcd7",
+  "name" : "need to contain the word \"iTechArt in the second page",
+  "fullName" : "Google search.need to contain the word \"iTechArt in the second page",
+  "historyId" : "29f1c908f6472c1e589336e74492c10d",
+  "time" : {
+    "start" : 1582282403447,
+    "stop" : 1582282404644,
+    "duration" : 1197
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Google search"
+  }, {
+    "name" : "testClass",
+    "value" : "Google search"
+  }, {
+    "name" : "testMethod",
+    "value" : "need to contain the word \"iTechArt in the second page"
+  }, {
+    "name" : "package",
+    "value" : "Google search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a5b7cb995aafcd7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expected 12 to equal 2.",
+      "children" : [ {
+        "name" : "amount should not be greater than undefined",
+        "uid" : "e6b41f8192a135ea",
+        "parentUid" : "e8c6b95a30cc5964aeb287239b8c799e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582827103225,
+          "stop" : 1582827103818,
+          "duration" : 593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "amount should be equal 2",
+        "uid" : "8692eeb0cdce82a0",
+        "parentUid" : "e8c6b95a30cc5964aeb287239b8c799e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582827580435,
+          "stop" : 1582827581402,
+          "duration" : 967
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e8c6b95a30cc5964aeb287239b8c799e"
+    }, {
+      "name" : "Expected '' to contain 'Automation'.",
+      "children" : [ {
+        "name" : "need to contains Automation",
+        "uid" : "447865d4967b0ff5",
+        "parentUid" : "df9ad6ca841f7866ddcfcc4a5c26cc87",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582889077438,
+          "stop" : 1582889082865,
+          "duration" : 5427
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df9ad6ca841f7866ddcfcc4a5c26cc87"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

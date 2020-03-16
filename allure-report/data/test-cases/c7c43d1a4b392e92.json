@@ -1,0 +1,44 @@
+{
+  "uid" : "c7c43d1a4b392e92",
+  "name" : "count need be greater than the 50000",
+  "fullName" : "Search results.count need be greater than the 50000",
+  "historyId" : "f3baf8ed6ed49d05e762112cfbeb3ce",
+  "time" : {
+    "start" : 1582282404651,
+    "stop" : 1582282405780,
+    "duration" : 1129
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Search results"
+  }, {
+    "name" : "testClass",
+    "value" : "Search results"
+  }, {
+    "name" : "testMethod",
+    "value" : "count need be greater than the 50000"
+  }, {
+    "name" : "package",
+    "value" : "Search results"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7c43d1a4b392e92.json",
+  "parameterValues" : [ ]
+}

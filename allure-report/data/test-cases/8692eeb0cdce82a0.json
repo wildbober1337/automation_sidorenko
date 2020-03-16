@@ -1,0 +1,52 @@
+{
+  "uid" : "8692eeb0cdce82a0",
+  "name" : "amount should be equal 2",
+  "fullName" : "Gmail messages .amount should be equal 2",
+  "historyId" : "dd77dcfc1ce0d6c575c81f7c6d1729ab",
+  "time" : {
+    "start" : 1582827580435,
+    "stop" : 1582827581402,
+    "duration" : 967
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 12 to equal 2.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (E:\\JavaScript\\Task_8\\spec\\programSpec.js:19:50)\n                    at processTicksAndRejections (internal/process/task_queues.js:94:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gmail messages "
+  }, {
+    "name" : "testClass",
+    "value" : "Gmail messages "
+  }, {
+    "name" : "testMethod",
+    "value" : "amount should be equal 2"
+  }, {
+    "name" : "package",
+    "value" : "Gmail messages "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8692eeb0cdce82a0.json",
+  "parameterValues" : [ ]
+}

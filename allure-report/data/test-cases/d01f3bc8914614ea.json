@@ -1,0 +1,44 @@
+{
+  "uid" : "d01f3bc8914614ea",
+  "name" : "amount should not be greater than undefined",
+  "fullName" : "Gmail messages .amount should not be greater than undefined",
+  "historyId" : "26cd89aa40ecad088b186da2eb1af928",
+  "time" : {
+    "start" : 1582826462746,
+    "stop" : 1582826462795,
+    "duration" : 49
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gmail messages "
+  }, {
+    "name" : "testClass",
+    "value" : "Gmail messages "
+  }, {
+    "name" : "testMethod",
+    "value" : "amount should not be greater than undefined"
+  }, {
+    "name" : "package",
+    "value" : "Gmail messages "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d01f3bc8914614ea.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,46 @@
+{
+  "uid" : "94d1695413cc513a",
+  "name" : "amount should not be greater than undefined",
+  "fullName" : "Gmail messages .amount should not be greater than undefined",
+  "historyId" : "26cd89aa40ecad088b186da2eb1af928",
+  "time" : {
+    "start" : 1582811330681,
+    "stop" : 1582811330686,
+    "duration" : 5
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: googleApi.getMessagesAmount is not a function",
+  "statusTrace" : "TypeError: googleApi.getMessagesAmount is not a function\n                    at UserContext.<anonymous> (E:\\JavaScript\\Task_8\\spec\\programSpec.js:20:32)\n                    at E:\\JavaScript\\Task_8\\node_modules\\jasminewd2\\index.js:112:25\n                    at new ManagedPromise (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n                    at ControlFlow.promise (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n                    at schedulerExecute (E:\\JavaScript\\Task_8\\node_modules\\jasminewd2\\index.js:95:18)\n                    at TaskQueue.execute_ (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n                    at E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n                    at processTicksAndRejections (internal/process/task_queues.js:94:5)\n                From: Task: Run it(\"amount should not be greater than undefined\") in control flow\n                    at UserContext.<anonymous> (E:\\JavaScript\\Task_8\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n                    at Spec.execute (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:526:10)\n                    at UserContext.fn (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5340:37)\n                    at attempt (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (E:\\JavaScript\\Task_8\\spec\\programSpec.js:18:5)\n                    at addSpecsToSuite (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (E:\\JavaScript\\Task_8\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (E:\\JavaScript\\Task_8\\spec\\programSpec.js:15:1)\n                    at Module._compile (internal/modules/cjs/loader.js:955:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)\n                    at Module.load (internal/modules/cjs/loader.js:811:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:723:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gmail messages "
+  }, {
+    "name" : "testClass",
+    "value" : "Gmail messages "
+  }, {
+    "name" : "testMethod",
+    "value" : "amount should not be greater than undefined"
+  }, {
+    "name" : "package",
+    "value" : "Gmail messages "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94d1695413cc513a.json",
+  "parameterValues" : [ ]
+}
