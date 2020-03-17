@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584273861552' stop='1584273861806'>
+    <name>Games results</name>
+    <title>Games results</title>
+    <test-cases>
+        <test-case start='1584273861552' status='failed' stop='1584273861806'>
+            <name>Test it </name>
+            <title>Test it </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: logger is not defined</message>
+                <stack-trace>ReferenceError: logger is not defined
+                    at GamePage.goToElement (E:\JavaScript\Task_10\pageobject\gamespage.js:32:15)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_10\spec\programSpec.js:12:5)
+                From: Task: Run beforeAll in control flow
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_10\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at TreeProcessor.execute (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5187:7)
+                    at Env.execute (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:983:17)
+                    at Jasmine.execute (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:200:12)
+                    at E:\JavaScript\Task_10\node_modules\protractor\built\frameworks\jasmine.js:132:15
+                    at Function.promise (E:\JavaScript\Task_10\node_modules\q\q.js:682:9)
+                From asynchronous test: 
+                Error
+                    at Object.&lt;anonymous> (E:\JavaScript\Task_10\spec\programSpec.js:9:1)
+                    at Module._compile (internal/modules/cjs/loader.js:955:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+                    at Module.load (internal/modules/cjs/loader.js:811:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+                    at Module.require (internal/modules/cjs/loader.js:848:19)
+                    at require (internal/modules/cjs/helpers.js:74:18)
+                    at E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:93:5
+                    at Array.forEach (&lt;anonymous>)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584273547902' stop='1584273554585'>
+    <name>Games results</name>
+    <title>Games results</title>
+    <test-cases>
+        <test-case start='1584273547902' status='failed' stop='1584273554585'>
+            <name>Test it </name>
+            <title>Test it </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected -1 to be greater than 0.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_10\spec\programSpec.js:28:20)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

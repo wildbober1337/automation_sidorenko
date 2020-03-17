@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583930790410' stop='1583930792725'>
+    <name>Games results</name>
+    <title>Games results</title>
+    <test-cases>
+        <test-case start='1583930790410' status='failed' stop='1583930792724'>
+            <name>Test it </name>
+            <title>Test it </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: no such element: Unable to locate element: {"method":"link text","selector":"href="https://store.steampowered.com/tags/ru/%D0%AD%D0%BA%D1%88%D0%B5%D0%BD/?snr=1_241_4_action_12""}
+                  (Session info: chrome=80.0.3987.132)</message>
+                <stack-trace>NoSuchElementError: no such element: Unable to locate element: {"method":"link text","selector":"href="https://store.steampowered.com/tags/ru/%D0%AD%D0%BA%D1%88%D0%B5%D0%BD/?snr=1_241_4_action_12""}
+                  (Session info: chrome=80.0.3987.132)
+                    at Object.throwDecodedError (E:\JavaScript\Task_10\node_modules\selenium-webdriver\lib\error.js:550:15)
+                    at parseHttpResponse (E:\JavaScript\Task_10\node_modules\selenium-webdriver\lib\http.js:563:13)
+                    at Executor.execute (E:\JavaScript\Task_10\node_modules\selenium-webdriver\lib\http.js:489:26)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at Driver.execute (E:\JavaScript\Task_10\node_modules\selenium-webdriver\lib\webdriver.js:699:17)
+                    at MainPage.openActionsLink (E:\JavaScript\Task_10\pageobject\mainpage.js:29:10)
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_10\spec\programSpec.js:11:5)
+                From: Task: Run beforeAll in control flow
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_10\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at queueRunnerFactory (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at TreeProcessor.execute (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5187:7)
+                    at Env.execute (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:983:17)
+                    at Jasmine.execute (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:200:12)
+                    at E:\JavaScript\Task_10\node_modules\protractor\built\frameworks\jasmine.js:132:15
+                    at Function.promise (E:\JavaScript\Task_10\node_modules\q\q.js:682:9)
+                From asynchronous test: 
+                Error
+                    at Object.&lt;anonymous> (E:\JavaScript\Task_10\spec\programSpec.js:7:1)
+                    at Module._compile (internal/modules/cjs/loader.js:955:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+                    at Module.load (internal/modules/cjs/loader.js:811:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+                    at Module.require (internal/modules/cjs/loader.js:848:19)
+                    at require (internal/modules/cjs/helpers.js:74:18)
+                    at E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:93:5
+                    at Array.forEach (&lt;anonymous>)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

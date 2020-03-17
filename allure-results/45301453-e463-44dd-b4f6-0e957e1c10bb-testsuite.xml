@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584296327848' stop='1584296337338'>
+    <name>Games results</name>
+    <title>Games results</title>
+    <test-cases>
+        <test-case start='1584296327849' status='failed' stop='1584296337338'>
+            <name>need to be Equal price or discount on the page with games and main game page </name>
+            <title>need to be Equal price or discount on the page with games and main game page </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected 20 to equal 50.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_10\spec\programSpec.js:31:99)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

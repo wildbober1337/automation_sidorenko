@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584368262216' stop='1584368270408'>
+    <name>Steam test results</name>
+    <title>Steam test results</title>
+    <test-cases>
+        <test-case start='1584368262216' status='passed' stop='1584368269452'>
+            <name>need to be Equal price or discount on the page with games and main game page</name>
+            <title>need to be Equal price or discount on the page with games and main game page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1584368269452' status='failed' stop='1584368270407'>
+            <name>steam file client need to be download with status true</name>
+            <title>steam file client need to be download with status true</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: Cannot read property 'checkDownloadFileStatus' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'checkDownloadFileStatus' of undefined
+                    at InstallPage.startInstallSteamClient (E:\JavaScript\Task_10\pageobject\installpage.js:29:42)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_10\spec\programSpec.js:48:16)
+                From: Task: Run it("steam file client need to be download with status true") in control flow
+                    at UserContext.&lt;anonymous> (E:\JavaScript\Task_10\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (E:\JavaScript\Task_10\spec\programSpec.js:46:7)
+                    at addSpecsToSuite (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (E:\JavaScript\Task_10\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (E:\JavaScript\Task_10\spec\programSpec.js:20:1)
+                    at Module._compile (internal/modules/cjs/loader.js:955:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+                    at Module.load (internal/modules/cjs/loader.js:811:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:723:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

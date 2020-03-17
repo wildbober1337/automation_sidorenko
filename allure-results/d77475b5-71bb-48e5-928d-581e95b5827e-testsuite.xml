@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584369027992' stop='1584369040444'>
+    <name>Steam test results</name>
+    <title>Steam test results</title>
+    <test-cases>
+        <test-case start='1584369027993' status='passed' stop='1584369039624'>
+            <name>need to be Equal price or discount on the page with games and main game page</name>
+            <title>need to be Equal price or discount on the page with games and main game page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1584369039624' status='passed' stop='1584369040444'>
+            <name>steam file client need to be download with status true</name>
+            <title>steam file client need to be download with status true</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
